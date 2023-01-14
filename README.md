@@ -1,5 +1,5 @@
 # 🐢 Mr. Turtle
-**Im getting better every day and you can't stop me**
+**muuu**
 #
 ### 🧰 Languages and Tools
            
@@ -34,11 +34,7 @@
 
 #
 
-### 📊 Stats
 
-![Mr. Turtle](https://github-readme-stats.vercel.app/api?username=cieplutkigit&count_private=true&show_icons=true&hide=contribs&theme=maroongold)
-
-#
 
 
    
