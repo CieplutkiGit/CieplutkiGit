@@ -1,6 +1,4 @@
-# 🐢 Mr. Turtle
-**I like to code**
-#
+
 ### 🧰 Languages and Tools
            
           
