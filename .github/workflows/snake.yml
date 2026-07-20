@@ -9,7 +9,6 @@ on:
       - main
     paths:
       - ".github/workflows/snake.yml"
-      - ".github/scripts/fill-snake-grid.mjs"
 
 permissions:
   contents: write
@@ -20,9 +19,6 @@ jobs:
     timeout-minutes: 5
 
     steps:
-      - name: Check out profile source
-        uses: actions/checkout@v4
-
       - name: Generate sepia snake SVGs
         uses: Platane/snk/svg-only@v3
         env:
@@ -32,9 +28,6 @@ jobs:
           outputs: |
             dist/github-contribution-grid-snake.svg?color_snake=#6f4e37&color_dots=#d6c3a5,#dfc9a8,#c49a6c,#9b6a45,#6d4530
             dist/github-contribution-grid-snake-dark.svg?color_snake=#ead8bd&color_dots=#3a2c22,#594331,#76563d,#a77d58,#d8ba8c
-
-      - name: Add extra activity cubes
-        run: node .github/scripts/fill-snake-grid.mjs dist/*.svg
 
       - name: Slow down the animation
         run: perl -pi -e 's/\b\d+ms\b/45000ms/g' dist/*.svg
