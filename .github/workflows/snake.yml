@@ -9,6 +9,7 @@ on:
       - main
     paths:
       - ".github/workflows/snake.yml"
+      - ".github/scripts/fill-snake-grid.mjs"
 
 permissions:
   contents: write
