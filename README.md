@@ -1,79 +1,66 @@
 <p align="center">
-  <img src="./assets/dossier-header.svg" width="100%" alt="CieplutkiGit field dossier" />
+  <img
+    src="./assets/dossier-header.svg"
+    width="100%"
+    alt="CieplutkiGit — field dossier"
+  />
 </p>
 
 <table>
 <tr>
-<td width="58%" valign="top">
+<td>
 
-### CASE NOTES
+**LIVE TRANSCRIPT // AUTOMATIC RECORD**
 
-I make **playable systems**, mostly in Unity and C#.
-
-The interesting part is rarely the menu or the framework. It is the moment a movement mechanic starts feeling right, a tiny prototype develops a personality, or a strange utility becomes genuinely useful.
-
-`current methods:` Unity · C# · 2D mechanics · game feel · prototypes  
-`occasional detours:` React Native · connected apps · lighting tools
-
-</td>
-<td width="42%" valign="top">
-
-### SUBJECT PROFILE
-
-```text
-NAME      kapec
-HANDLE    CieplutkiGit
-ROLE      builder / tinkerer
-STATUS    active
-MOTIVE    make small things feel good
-```
+<p align="center">
+  <img
+    src="https://readme-typing-svg.demolab.com?font=Special+Elite&size=22&duration=3900&pause=1100&color=5B4636&center=true&vCenter=true&width=940&height=58&lines=TRANSCRIPT+01+%2F%2F+building+playable+systems;TRANSCRIPT+02+%2F%2F+movement+should+feel+intentional;TRANSCRIPT+03+%2F%2F+prototype+before+polish;FIELD+STATUS+%2F%2F+active"
+    alt="Typewritten field transcript"
+  />
+</p>
 
 </td>
 </tr>
 </table>
 
----
+<pre>
+FILE       68-950-131
+SUBJECT    kapec / CieplutkiGit
+SECTION    creative systems
+METHOD     build → play → observe → revise
+STATUS     still investigating
+</pre>
 
-### OPEN CASES
+## Ⅰ. SUBJECT NOTES
+
+Mostly **Unity and C#**.
+
+I care about movement, interaction, and the small details that make a rough prototype feel intentional. Sometimes the investigation wanders into React Native, connected lights, or any other tool that turns code into something you can actually touch.
+
+The goal is not to make everything large. The goal is to make the small thing convincing.
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-#### [01 — 2D SHOWCASE](https://github.com/CieplutkiGit/2DShowcase)
+**RECURRING INTERESTS**
 
-A working cabinet of 2D experiments, mechanics, and presentation studies.
-
-`classification: unity / 2d / experiments`
-
-</td>
-<td width="50%" valign="top">
-
-#### [02 — MINI TOP-DOWN SHOOTER](https://github.com/CieplutkiGit/MiniTopDownShooter)
-
-A compact top-down shooter built around the essential loop and feel.
-
-`classification: unity / gameplay / prototype`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-#### [03 — SIMPLE PARKOUR MOVEMENT](https://github.com/CieplutkiGit/SimpleParkourMovement)
-
-A focused movement study: traversal first, decoration later.
-
-`classification: unity / movement / systems`
+* 2D mechanics
+* movement systems
+* game feel
+* compact prototypes
+* reusable gameplay code
 
 </td>
 <td width="50%" valign="top">
 
-#### [04 — YEELIGHT CONTROL PANEL](https://github.com/CieplutkiGit/Yeelight-Control-Panel)
+**KNOWN DETOURS**
 
-A practical control surface for a small piece of the physical world.
-
-`classification: utility / connected-device / ui`
+* mobile interfaces
+* connected-device tools
+* visual experiments
+* inconvenient ideas that seem fun
+* rebuilding something just to understand it
 
 </td>
 </tr>
@@ -81,39 +68,123 @@ A practical control surface for a small piece of the physical world.
 
 ---
 
-### ACTIVITY TRAIL
+## Ⅱ. OPEN CASE REGISTRY
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 01 / [2D Showcase](https://github.com/CieplutkiGit/2DShowcase)
+
+A cabinet of 2D experiments, mechanics, and presentation studies.
+
+<sub>`UNITY` · `2D` · `EXPERIMENTS`</sub>
+
+</td>
+<td width="50%" valign="top">
+
+### 02 / [Mini Top-Down Shooter](https://github.com/CieplutkiGit/MiniTopDownShooter)
+
+A compact shooter built around the essential loop and the feel between inputs.
+
+<sub>`UNITY` · `GAMEPLAY` · `PROTOTYPE`</sub>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 03 / [Simple Parkour Movement](https://github.com/CieplutkiGit/SimpleParkourMovement)
+
+A focused traversal study. Movement first; decoration later.
+
+<sub>`UNITY` · `MOVEMENT` · `SYSTEMS`</sub>
+
+</td>
+<td width="50%" valign="top">
+
+### 04 / [Yeelight Control Panel](https://github.com/CieplutkiGit/Yeelight-Control-Panel)
+
+A practical control surface for a small piece of the physical world.
+
+<sub>`UTILITY` · `CONNECTED DEVICE` · `UI`</sub>
+
+</td>
+</tr>
+</table>
+
+<details>
+<summary><strong>ADDITIONAL MATERIAL</strong></summary>
+<br>
+
+* [TikTokLiveSharpUnity](https://github.com/CieplutkiGit/TikTokLiveSharpUnity) — Unity-side experiments with live-event integration
+* [TurtleCards](https://github.com/CieplutkiGit/TurtleCards) — an earlier compact game project
+* [react-native-user-profile](https://github.com/CieplutkiGit/react-native-user-profile) — a React Native interface study
+
+</details>
+
+---
+
+## Ⅲ. ACTIVITY TRAIL
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/CieplutkiGit/CieplutkiGit/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/CieplutkiGit/CieplutkiGit/output/github-contribution-grid-snake.svg">
-    <img alt="Contribution trail snake" src="https://raw.githubusercontent.com/CieplutkiGit/CieplutkiGit/output/github-contribution-grid-snake.svg">
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://raw.githubusercontent.com/CieplutkiGit/CieplutkiGit/output/github-contribution-grid-snake-dark.svg"
+    />
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://raw.githubusercontent.com/CieplutkiGit/CieplutkiGit/output/github-contribution-grid-snake.svg"
+    />
+    <img
+      src="https://raw.githubusercontent.com/CieplutkiGit/CieplutkiGit/output/github-contribution-grid-snake.svg"
+      alt="Sepia contribution trail"
+    />
   </picture>
 </p>
 
 <p align="center">
-  <sub>Evidence is regenerated every morning by GitHub Actions.</sub>
+  <sub>Trail reconstructed daily from contribution records by GitHub Actions.</sub>
 </p>
 
 ---
 
-### FIELD EQUIPMENT
+## Ⅳ. EVIDENCE LOCKER
 
-`Unity` · `C#` · `.NET` · `Git` · `JavaScript` · `React Native` · `VS Code`
+```text
+PRIMARY TOOLS
+├── Unity
+├── C#
+├── .NET
+└── Git
+
+SECONDARY MATERIAL
+├── JavaScript
+├── React Native / Expo
+├── connected-device experiments
+└── whatever the current case requires
+```
 
 <details>
-<summary><strong>ARCHIVE NOTE — how I tend to work</strong></summary>
+<summary><strong>MARGIN NOTE — working procedure</strong></summary>
 <br>
 
-1. Make the smallest version that can be played.
-2. Remove anything that does not improve the feeling.
-3. Turn repeated accidents into reusable systems.
-4. Leave enough rough edges for the next experiment.
+1. Build the smallest version that can be played.
+2. Notice what feels alive and what only occupies space.
+3. Remove the second category.
+4. Turn useful accidents into systems.
+5. Stop polishing when the idea has already made its point.
 
 </details>
 
-<br>
+---
 
-<p align="center">
-  <em>Build the mechanic. Observe the behavior. Keep what has a pulse.</em>
+## Ⅴ. CLOSING MEMO
+
+> A prototype does not need to be large.
+> It needs one convincing reason to exist.
+
+<p align="right">
+  <sub>END OF CURRENT FILE // further entries expected</sub>
 </p>
