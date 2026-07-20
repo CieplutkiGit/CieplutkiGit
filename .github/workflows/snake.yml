@@ -26,8 +26,11 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-contribution-grid-snake.svg?color_snake=#6f4e37&color_dots=#f3eadb,#dfc9a8,#c49a6c,#9b6a45,#6d4530
-            dist/github-contribution-grid-snake-dark.svg?color_snake=#ead8bd&color_dots=#17130f,#352a20,#604734,#9c7654,#d8ba8c
+            dist/github-contribution-grid-snake.svg?color_snake=#6f4e37&color_dots=#d6c3a5,#dfc9a8,#c49a6c,#9b6a45,#6d4530
+            dist/github-contribution-grid-snake-dark.svg?color_snake=#ead8bd&color_dots=#3a2c22,#594331,#76563d,#a77d58,#d8ba8c
+
+      - name: Slow down the animation
+        run: perl -pi -e 's/\b\d+ms\b/45000ms/g' dist/*.svg
 
       - name: Publish generated SVGs to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
