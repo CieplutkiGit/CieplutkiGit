@@ -1,0 +1,296 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1620" viewBox="0 0 1200 1620" role="img" aria-labelledby="title desc">
+  <title id="title">Agent 404 dossier profile</title>
+  <desc id="desc">Paper dossier with missing photo, animated live transcript, redactions, and charged-with registry.</desc>
+
+  <defs>
+    <linearGradient id="paperBase" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f2e7d5"/>
+      <stop offset="52%" stop-color="#ebdcc4"/>
+      <stop offset="100%" stop-color="#dcc4a2"/>
+    </linearGradient>
+
+    <linearGradient id="edgeShade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#b79b7b" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#8c6d50" stop-opacity="0.05"/>
+    </linearGradient>
+
+    <filter id="grain" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="3" seed="17" result="noise"/>
+      <feColorMatrix in="noise" type="saturate" values="0"/>
+      <feComponentTransfer>
+        <feFuncA type="table" tableValues="0 0.08"/>
+      </feComponentTransfer>
+    </filter>
+
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feOffset dx="0" dy="6" result="off"/>
+      <feGaussianBlur in="off" stdDeviation="8" result="blur"/>
+      <feColorMatrix in="blur" type="matrix"
+        values="0 0 0 0 0.22
+                0 0 0 0 0.17
+                0 0 0 0 0.12
+                0 0 0 0.25 0" />
+      <feBlend in="SourceGraphic" mode="normal"/>
+    </filter>
+
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feOffset dx="0" dy="3" result="off"/>
+      <feGaussianBlur in="off" stdDeviation="4" result="blur"/>
+      <feColorMatrix in="blur" type="matrix"
+        values="0 0 0 0 0.22
+                0 0 0 0 0.17
+                0 0 0 0 0.12
+                0 0 0 0.14 0" />
+      <feBlend in="SourceGraphic" mode="normal"/>
+    </filter>
+
+    <style>
+      .mono { font-family: "Courier New", Courier, monospace; }
+      .serif { font-family: Georgia, "Times New Roman", serif; }
+      .tiny { font-size: 14px; }
+      .small { font-size: 18px; }
+      .body { font-size: 22px; }
+      .mid { font-size: 28px; }
+      .section { font-size: 34px; font-weight: 700; letter-spacing: 1px; }
+      .title { font-size: 62px; font-weight: 700; letter-spacing: 2px; }
+      .brown { fill: #4b392d; }
+      .ink { fill: #3d2f24; }
+      .soft { fill: #6b5542; }
+      .rule { stroke: #8b7158; stroke-width: 1.5; opacity: 0.55; }
+      .cardStroke { stroke: #8a6b4f; stroke-width: 1.5; }
+      .stamp { fill: none; stroke: #8f4d37; }
+      .redact { fill: #1f1712; }
+    </style>
+</defs>
+
+  <rect x="0" y="0" width="1200" height="1620" fill="#e0ccb0"/>
+  <rect x="24" y="24" width="1152" height="1572" rx="9" fill="url(#paperBase)" stroke="#6f543f" stroke-width="2.6" filter="url(#shadow)"/>
+  <rect x="24" y="24" width="1152" height="1572" rx="9" fill="url(#edgeShade)"/>
+  <rect x="24" y="24" width="1152" height="1572" rx="9" filter="url(#grain)"/>
+
+  <g fill="#b09472" stroke="#735844" stroke-width="1.5" opacity="0.75">
+    <circle cx="58" cy="170" r="9"/>
+    <circle cx="58" cy="464" r="9"/>
+    <circle cx="58" cy="758" r="9"/>
+    <circle cx="58" cy="1052" r="9"/>
+    <circle cx="58" cy="1346" r="9"/>
+  </g>
+
+  <rect x="108" y="74" width="984" height="34" fill="#5a4332"/>
+  <text x="126" y="97" class="mono tiny" fill="#efe2cb" letter-spacing="3">FIELD DOSSIER // PANIC RESPONSE UNIT</text>
+  <text x="1068" y="97" class="mono tiny" fill="#efe2cb" letter-spacing="2" text-anchor="end">FILE 404-404-404</text>
+
+  <text x="110" y="184" class="serif small soft" font-style="italic">subject:</text>
+  <text x="110" y="248" class="serif title ink">Agent 404</text>
+  <line x1="110" y1="267" x2="720" y2="267" class="rule"/>
+  <text x="112" y="292" class="mono small soft" letter-spacing="2">STATUS / MISSING / PROBABLY TYPING SOMETHING TERRIBLE</text>
+
+  <g filter="url(#softShadow)">
+    <rect x="838" y="145" width="258" height="196" rx="4" fill="#efe2ca" class="cardStroke"/>
+    <rect x="838" y="145" width="258" height="22" fill="#e5d2b4"/>
+    <text x="853" y="160" class="mono tiny brown" letter-spacing="2">ATTACHED PHOTO</text>
+    <rect x="866" y="188" width="200" height="124" fill="#e7d5b8" stroke="#8a6b4f" stroke-dasharray="8 6" stroke-width="2.2"/>
+    <line x1="886" y1="208" x2="1046" y2="292" stroke="#8f4d37" stroke-width="3"/>
+    <line x1="1046" y1="208" x2="886" y2="292" stroke="#8f4d37" stroke-width="3"/>
+    <text x="966" y="245" text-anchor="middle" class="mono mid" fill="#8f4d37" font-weight="700">404</text>
+    <text x="966" y="272" text-anchor="middle" class="mono small" fill="#8f4d37">PHOTO NOT FOUND</text>
+  </g>
+
+  <g transform="translate(969 368) rotate(-6)">
+    <rect x="-98" y="-28" width="196" height="56" rx="3" class="stamp" stroke-width="4"/>
+    <rect x="-89" y="-20" width="178" height="40" rx="2" class="stamp" stroke-width="1.4"/>
+    <text x="0" y="9" text-anchor="middle" class="mono small" fill="#8f4d37" font-weight="700" letter-spacing="4">UNSTABLE</text>
+    <animate attributeName="opacity" values="0.7;0.95;0.7" dur="4.5s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="scale" additive="sum" values="1;1.02;1" dur="4.5s" repeatCount="indefinite"/>
+  </g>
+
+  <!-- live transcript -->
+  <g filter="url(#softShadow)">
+    <rect x="92" y="322" width="732" height="208" rx="4" fill="#efe2ca" class="cardStroke"/>
+    <rect x="92" y="322" width="732" height="28" fill="#e5d2b4"/>
+    <text x="108" y="340" class="mono tiny brown" letter-spacing="2">LIVE TRANSCRIPT // DO NOT ENCOURAGE</text>
+    <line x1="112" y1="350" x2="802" y2="350" class="rule"/>
+
+    <text x="130" y="377" class="mono body brown">1 - "hey chatgpt whats 2+2??"</text>
+    <text x="130" y="416" class="mono body brown">2 - "claude build windows 12 make no mistake"</text>
+    <text x="130" y="455" class="mono body brown">3 - "claude build 1 milion $ app make no mistakes"</text>
+    <text x="130" y="494" class="mono body brown">4 - "hey chatgpt what is nulll reference..."</text>
+
+    <rect id="cover1" x="126" y="354" width="684" height="29" fill="#efe2ca">
+      <animate attributeName="x"
+        values="126;126;146.12;166.24;186.35;206.47;226.59;246.71;266.82;286.94;307.06;327.18;347.29;367.41;387.53;407.65;427.76;447.88;468;488.12;508.24;528.35;548.47;568.59;588.71;608.82;628.94;649.06;669.18;689.29;709.41;729.53;749.65;769.76;789.88;810;126"
+        keyTimes="0;0.02;0.025882;0.031765;0.037647;0.043529;0.049412;0.055294;0.061176;0.067059;0.072941;0.078824;0.084706;0.090588;0.096471;0.102353;0.108235;0.114118;0.12;0.125882;0.131765;0.137647;0.143529;0.149412;0.155294;0.161176;0.167059;0.172941;0.178824;0.184706;0.190588;0.196471;0.202353;0.208235;0.214118;0.22;1"
+        calcMode="discrete"
+        dur="16s"
+        repeatCount="indefinite"/>
+      <animate attributeName="width"
+        values="684;684;663.88;643.76;623.65;603.53;583.41;563.29;543.18;523.06;502.94;482.82;462.71;442.59;422.47;402.35;382.24;362.12;342;321.88;301.76;281.65;261.53;241.41;221.29;201.18;181.06;160.94;140.82;120.71;100.59;80.47;60.35;40.24;20.12;0;684"
+        keyTimes="0;0.02;0.025882;0.031765;0.037647;0.043529;0.049412;0.055294;0.061176;0.067059;0.072941;0.078824;0.084706;0.090588;0.096471;0.102353;0.108235;0.114118;0.12;0.125882;0.131765;0.137647;0.143529;0.149412;0.155294;0.161176;0.167059;0.172941;0.178824;0.184706;0.190588;0.196471;0.202353;0.208235;0.214118;0.22;1"
+        calcMode="discrete"
+        dur="16s"
+        repeatCount="indefinite"/>
+    </rect>
+    <rect x="126" y="355" width="11" height="24" rx="1.5" fill="#5d4837">
+      <animate attributeName="x"
+        values="126;146.12;166.24;186.35;206.47;226.59;246.71;266.82;286.94;307.06;327.18;347.29;367.41;387.53;407.65;427.76;447.88;468;488.12;508.24;528.35;548.47;568.59;588.71;608.82;628.94;649.06;669.18;689.29;709.41;729.53;749.65;769.76;789.88;810;126"
+        keyTimes="0;0.025882;0.031765;0.037647;0.043529;0.049412;0.055294;0.061176;0.067059;0.072941;0.078824;0.084706;0.090588;0.096471;0.102353;0.108235;0.114118;0.12;0.125882;0.131765;0.137647;0.143529;0.149412;0.155294;0.161176;0.167059;0.172941;0.178824;0.184706;0.190588;0.196471;0.202353;0.208235;0.214118;0.22;1"
+        calcMode="discrete"
+        dur="16s"
+        repeatCount="indefinite"/>
+      <animate attributeName="opacity"
+        values="0;0;1;1;0;0"
+        keyTimes="0;0.019;0.02;0.22;0.985;1"
+        calcMode="discrete"
+        dur="16s"
+        repeatCount="indefinite"/>
+    </rect>
+    <rect id="cover2" x="126" y="393" width="684" height="29" fill="#efe2ca">
+      <animate attributeName="x"
+        values="126;126;146.12;166.24;186.35;206.47;226.59;246.71;266.82;286.94;307.06;327.18;347.29;367.41;387.53;407.65;427.76;447.88;468;488.12;508.24;528.35;548.47;568.59;588.71;608.82;628.94;649.06;669.18;689.29;709.41;729.53;749.65;769.76;789.88;810;126"
+        keyTimes="0;0.26;0.265882;0.271765;0.277647;0.283529;0.289412;0.295294;0.301176;0.307059;0.312941;0.318824;0.324706;0.330588;0.336471;0.342353;0.348235;0.354118;0.36;0.365882;0.371765;0.377647;0.383529;0.389412;0.395294;0.401176;0.407059;0.412941;0.418824;0.424706;0.430588;0.436471;0.442353;0.448235;0.454118;0.46;1"
+        calcMode="discrete"
+        dur="16s"
+        repeatCount="indefinite"/>
+      <animate attributeName="width"
+        values="684;684;663.88;643.76;623.65;603.53;583.41;563.29;543.18;523.06;502.94;482.82;462.71;442.59;422.47;402.35;382.24;362.12;342;321.88;301.76;281.65;261.53;241.41;221.29;201.18;181.06;160.94;140.82;120.71;100.59;80.47;60.35;40.24;20.12;0;684"
+        keyTimes="0;0.26;0.265882;0.271765;0.277647;0.283529;0.289412;0.295294;0.301176;0.307059;0.312941;0.318824;0.324706;0.330588;0.336471;0.342353;0.348235;0.354118;0.36;0.365882;0.371765;0.377647;0.383529;0.389412;0.395294;0.401176;0.407059;0.412941;0.418824;0.424706;0.430588;0.436471;0.442353;0.448235;0.454118;0.46;1"
+        calcMode="discrete"
+        dur="16s"
+        repeatCount="indefinite"/>
+    </rect>
+    <rect x="126" y="394" width="11" height="24" rx="1.5" fill="#5d4837">
+      <animate attributeName="x"
+        values="126;146.12;166.24;186.35;206.47;226.59;246.71;266.82;286.94;307.06;327.18;347.29;367.41;387.53;407.65;427.76;447.88;468;488.12;508.24;528.35;548.47;568.59;588.71;608.82;628.94;649.06;669.18;689.29;709.41;729.53;749.65;769.76;789.88;810;126"
+        keyTimes="0;0.265882;0.271765;0.277647;0.283529;0.289412;0.295294;0.301176;0.307059;0.312941;0.318824;0.324706;0.330588;0.336471;0.342353;0.348235;0.354118;0.36;0.365882;0.371765;0.377647;0.383529;0.389412;0.395294;0.401176;0.407059;0.412941;0.418824;0.424706;0.430588;0.436471;0.442353;0.448235;0.454118;0.46;1"
+        calcMode="discrete"
+        dur="16s"
+        repeatCount="indefinite"/>
+      <animate attributeName="opacity"
+        values="0;0;1;1;0;0"
+        keyTimes="0;0.259;0.26;0.46;0.985;1"
+        calcMode="discrete"
+        dur="16s"
+        repeatCount="indefinite"/>
+    </rect>
+    <rect id="cover3" x="126" y="432" width="684" height="29" fill="#efe2ca">
+      <animate attributeName="x"
+        values="126;126;146.12;166.24;186.35;206.47;226.59;246.71;266.82;286.94;307.06;327.18;347.29;367.41;387.53;407.65;427.76;447.88;468;488.12;508.24;528.35;548.47;568.59;588.71;608.82;628.94;649.06;669.18;689.29;709.41;729.53;749.65;769.76;789.88;810;126"
+        keyTimes="0;0.5;0.505882;0.511765;0.517647;0.523529;0.529412;0.535294;0.541176;0.547059;0.552941;0.558824;0.564706;0.570588;0.576471;0.582353;0.588235;0.594118;0.6;0.605882;0.611765;0.617647;0.623529;0.629412;0.635294;0.641176;0.647059;0.652941;0.658824;0.664706;0.670588;0.676471;0.682353;0.688235;0.694118;0.7;1"
+        calcMode="discrete"
+        dur="16s"
+        repeatCount="indefinite"/>
+      <animate attributeName="width"
+        values="684;684;663.88;643.76;623.65;603.53;583.41;563.29;543.18;523.06;502.94;482.82;462.71;442.59;422.47;402.35;382.24;362.12;342;321.88;301.76;281.65;261.53;241.41;221.29;201.18;181.06;160.94;140.82;120.71;100.59;80.47;60.35;40.24;20.12;0;684"
+        keyTimes="0;0.5;0.505882;0.511765;0.517647;0.523529;0.529412;0.535294;0.541176;0.547059;0.552941;0.558824;0.564706;0.570588;0.576471;0.582353;0.588235;0.594118;0.6;0.605882;0.611765;0.617647;0.623529;0.629412;0.635294;0.641176;0.647059;0.652941;0.658824;0.664706;0.670588;0.676471;0.682353;0.688235;0.694118;0.7;1"
+        calcMode="discrete"
+        dur="16s"
+        repeatCount="indefinite"/>
+    </rect>
+    <rect x="126" y="433" width="11" height="24" rx="1.5" fill="#5d4837">
+      <animate attributeName="x"
+        values="126;146.12;166.24;186.35;206.47;226.59;246.71;266.82;286.94;307.06;327.18;347.29;367.41;387.53;407.65;427.76;447.88;468;488.12;508.24;528.35;548.47;568.59;588.71;608.82;628.94;649.06;669.18;689.29;709.41;729.53;749.65;769.76;789.88;810;126"
+        keyTimes="0;0.505882;0.511765;0.517647;0.523529;0.529412;0.535294;0.541176;0.547059;0.552941;0.558824;0.564706;0.570588;0.576471;0.582353;0.588235;0.594118;0.6;0.605882;0.611765;0.617647;0.623529;0.629412;0.635294;0.641176;0.647059;0.652941;0.658824;0.664706;0.670588;0.676471;0.682353;0.688235;0.694118;0.7;1"
+        calcMode="discrete"
+        dur="16s"
+        repeatCount="indefinite"/>
+      <animate attributeName="opacity"
+        values="0;0;1;1;0;0"
+        keyTimes="0;0.499;0.5;0.7;0.985;1"
+        calcMode="discrete"
+        dur="16s"
+        repeatCount="indefinite"/>
+    </rect>
+    <rect id="cover4" x="126" y="471" width="684" height="29" fill="#efe2ca">
+      <animate attributeName="x"
+        values="126;126;146.12;166.24;186.35;206.47;226.59;246.71;266.82;286.94;307.06;327.18;347.29;367.41;387.53;407.65;427.76;447.88;468;488.12;508.24;528.35;548.47;568.59;588.71;608.82;628.94;649.06;669.18;689.29;709.41;729.53;749.65;769.76;789.88;810;126"
+        keyTimes="0;0.74;0.745882;0.751765;0.757647;0.763529;0.769412;0.775294;0.781176;0.787059;0.792941;0.798824;0.804706;0.810588;0.816471;0.822353;0.828235;0.834118;0.84;0.845882;0.851765;0.857647;0.863529;0.869412;0.875294;0.881176;0.887059;0.892941;0.898824;0.904706;0.910588;0.916471;0.922353;0.928235;0.934118;0.94;1"
+        calcMode="discrete"
+        dur="16s"
+        repeatCount="indefinite"/>
+      <animate attributeName="width"
+        values="684;684;663.88;643.76;623.65;603.53;583.41;563.29;543.18;523.06;502.94;482.82;462.71;442.59;422.47;402.35;382.24;362.12;342;321.88;301.76;281.65;261.53;241.41;221.29;201.18;181.06;160.94;140.82;120.71;100.59;80.47;60.35;40.24;20.12;0;684"
+        keyTimes="0;0.74;0.745882;0.751765;0.757647;0.763529;0.769412;0.775294;0.781176;0.787059;0.792941;0.798824;0.804706;0.810588;0.816471;0.822353;0.828235;0.834118;0.84;0.845882;0.851765;0.857647;0.863529;0.869412;0.875294;0.881176;0.887059;0.892941;0.898824;0.904706;0.910588;0.916471;0.922353;0.928235;0.934118;0.94;1"
+        calcMode="discrete"
+        dur="16s"
+        repeatCount="indefinite"/>
+    </rect>
+    <rect x="126" y="472" width="11" height="24" rx="1.5" fill="#5d4837">
+      <animate attributeName="x"
+        values="126;146.12;166.24;186.35;206.47;226.59;246.71;266.82;286.94;307.06;327.18;347.29;367.41;387.53;407.65;427.76;447.88;468;488.12;508.24;528.35;548.47;568.59;588.71;608.82;628.94;649.06;669.18;689.29;709.41;729.53;749.65;769.76;789.88;810;126"
+        keyTimes="0;0.745882;0.751765;0.757647;0.763529;0.769412;0.775294;0.781176;0.787059;0.792941;0.798824;0.804706;0.810588;0.816471;0.822353;0.828235;0.834118;0.84;0.845882;0.851765;0.857647;0.863529;0.869412;0.875294;0.881176;0.887059;0.892941;0.898824;0.904706;0.910588;0.916471;0.922353;0.928235;0.934118;0.94;1"
+        calcMode="discrete"
+        dur="16s"
+        repeatCount="indefinite"/>
+      <animate attributeName="opacity"
+        values="0;0;1;1;0;0"
+        keyTimes="0;0.739;0.74;0.94;0.985;1"
+        calcMode="discrete"
+        dur="16s"
+        repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- case note -->
+  <g transform="translate(92 572) rotate(-0.6)" filter="url(#softShadow)">
+    <rect x="0" y="0" width="1018" height="172" rx="4" fill="#f4e9d6" class="cardStroke"/>
+    <text x="24" y="32" class="mono tiny brown" letter-spacing="2">CASE NOTE</text>
+    <line x1="24" y1="50" x2="988" y2="50" class="rule"/>
+    <line x1="24" y1="92" x2="988" y2="92" class="rule" opacity="0.22"/>
+    <line x1="24" y1="130" x2="988" y2="130" class="rule" opacity="0.22"/>
+    <text x="28" y="86" class="serif body ink">making games and silly things for over</text>
+    <rect x="448" y="66" width="136" height="24" rx="2" class="redact"/>
+    <rect x="28" y="104" width="210" height="22" rx="2" class="redact"/>
+    <rect x="246" y="104" width="176" height="22" rx="2" class="redact"/>
+    <rect x="430" y="104" width="196" height="22" rx="2" class="redact"/>
+  </g>
+
+  <!-- charged with -->
+  <text x="96" y="818" class="mono section brown">Charged with</text>
+  <line x1="92" y1="836" x2="1110" y2="836" class="rule"/>
+
+  <g filter="url(#softShadow)">
+    <rect x="92" y="866" width="486" height="210" rx="4" fill="#f2e6d2" class="cardStroke"/>
+    <rect x="92" y="866" width="486" height="24" fill="#e5d2b4"/>
+    <text x="109" y="883" class="mono tiny brown" letter-spacing="2">PRIMARY OFFENSES</text>
+    <text x="116" y="933" class="mono body ink">• C#</text>
+    <text x="116" y="970" class="mono body ink">• Unity</text>
+    <text x="116" y="1007" class="mono body ink">• .NET</text>
+    <text x="116" y="1044" class="mono body ink">• </text><rect x="145" y="1026" width="138" height="22" rx="2" class="redact"/>
+
+    <rect x="624" y="866" width="486" height="210" rx="4" fill="#f2e6d2" class="cardStroke"/>
+    <rect x="624" y="866" width="486" height="24" fill="#e5d2b4"/>
+    <text x="641" y="883" class="mono tiny brown" letter-spacing="2">ADDITIONAL CHARGES</text>
+    <text x="648" y="933" class="mono body ink">• Godot</text>
+    <text x="648" y="970" class="mono body ink">• Unreal</text>
+    <text x="648" y="1007" class="mono body ink">• C++</text>
+    <text x="648" y="1044" class="mono body ink">• </text><rect x="677" y="1026" width="148" height="22" rx="2" class="redact"/>
+
+    <rect x="92" y="1108" width="486" height="210" rx="4" fill="#f2e6d2" class="cardStroke"/>
+    <rect x="92" y="1108" width="486" height="24" fill="#e5d2b4"/>
+    <text x="109" y="1125" class="mono tiny brown" letter-spacing="2">SUSPECTED OF</text>
+    <text x="116" y="1175" class="mono body ink">• React</text>
+    <text x="116" y="1212" class="mono body ink">• Ruby</text>
+    <text x="116" y="1249" class="mono body ink">• </text><rect x="145" y="1231" width="148" height="22" rx="2" class="redact"/>
+    <text x="116" y="1286" class="mono body ink">• </text><rect x="145" y="1268" width="118" height="22" rx="2" class="redact"/>
+
+    <rect x="624" y="1108" width="486" height="210" rx="4" fill="#f2e6d2" class="cardStroke"/>
+    <rect x="624" y="1108" width="486" height="24" fill="#e5d2b4"/>
+    <text x="641" y="1125" class="mono tiny brown" letter-spacing="2">KNOWN INCIDENTS</text>
+    <text x="648" y="1175" class="mono body ink">• autamted tiktok lives</text>
+    <text x="648" y="1212" class="mono body ink">• animation channel with unity</text>
+    <text x="648" y="1249" class="mono body ink">• drop database... </text><rect x="860" y="1231" width="92" height="22" rx="2" class="redact"/>
+    <text x="648" y="1286" class="mono body ink">• </text><rect x="677" y="1268" width="136" height="22" rx="2" class="redact"/>
+  </g>
+
+  <!-- summary -->
+  <text x="96" y="1394" class="mono section brown">Summary</text>
+  <line x1="92" y1="1412" x2="1110" y2="1412" class="rule"/>
+
+  <g filter="url(#softShadow)">
+    <rect x="92" y="1442" width="1018" height="104" rx="4" fill="#eee0c8" class="cardStroke"/>
+    <text x="116" y="1492" class="serif body ink">under observation...</text>
+  </g>
+
+  <path d="M1088 196c30-21 54 11 32 37l-61 70c-18 21-47-3-29-25l53-61c9-11 25 3 16 13l-44 51"
+        fill="none" stroke="#7c6855" stroke-width="5" stroke-linecap="round" opacity="0.72"/>
+</svg>
