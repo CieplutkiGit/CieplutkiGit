@@ -1,0 +1,38 @@
+name: Generate sepia contribution snake
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 4 * * *"
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/snake.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Generate sepia snake SVGs
+        uses: Platane/snk/svg-only@v3
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg?color_snake=#6f4e37&color_dots=#f3eadb,#dfc9a8,#c49a6c,#9b6a45,#6d4530
+            dist/github-contribution-grid-snake-dark.svg?color_snake=#ead8bd&color_dots=#17130f,#352a20,#604734,#9c7654,#d8ba8c
+
+      - name: Publish generated SVGs to output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
