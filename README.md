@@ -1,83 +1,119 @@
 <p align="center">
-  <img src="./assets/animated-grid.svg" alt="CieplutkiGit animated grid banner" width="100%" />
+  <img src="./assets/dossier-header.svg" width="100%" alt="CieplutkiGit field dossier" />
 </p>
 
-<p align="center">
-  <a href="https://github.com/CieplutkiGit?tab=followers">
-    <img src="https://img.shields.io/github/followers/CieplutkiGit?label=Followers&style=for-the-badge&logo=github&color=7c3aed&labelColor=0d1117" alt="GitHub followers" />
-  </a>
-  <img src="https://komarev.com/ghpvc/?username=CieplutkiGit&style=for-the-badge&color=0891b2&label=PROFILE+VIEWS" alt="Profile views" />
-</p>
+<table>
+<tr>
+<td width="58%" valign="top">
 
-<p align="center">
-  <img
-    src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=23&duration=2800&pause=900&color=67E8F9&center=true&vCenter=true&width=760&lines=Unity+Developer+%26+C%23+Builder;Gameplay+Systems+%E2%80%A2+Prototypes+%E2%80%A2+Game+Feel;React+Native+%26+Connected-App+Experiments;Turning+Small+Ideas+Into+Playable+Things"
-    alt="Typing introduction"
-  />
-</p>
+### CASE NOTES
 
-## `> whoami`
+I make **playable systems**, mostly in Unity and C#.
 
-```csharp
-public sealed class Kapec
-{
-    public string Focus => "Unity, gameplay systems, and creative coding";
-    public string[] Languages => { "C#", "JavaScript" };
-    public string[] Interests => { "2D games", "movement", "prototypes", "mobile UI" };
-    public string Motto => "Build. Play. Iterate.";
-}
+The interesting part is rarely the menu or the framework. It is the moment a movement mechanic starts feeling right, a tiny prototype develops a personality, or a strange utility becomes genuinely useful.
+
+`current methods:` Unity · C# · 2D mechanics · game feel · prototypes  
+`occasional detours:` React Native · connected apps · lighting tools
+
+</td>
+<td width="42%" valign="top">
+
+### SUBJECT PROFILE
+
+```text
+NAME      kapec
+HANDLE    CieplutkiGit
+ROLE      builder / tinkerer
+STATUS    active
+MOTIVE    make small things feel good
 ```
 
-- 🎮 Building playable prototypes and reusable gameplay systems in **Unity**
-- ⚙️ Most at home with **C#**, game feel, movement, and 2D mechanics
-- 📱 Also experimenting with **React Native / Expo** and connected apps
-- 🧪 I enjoy taking compact ideas from rough test to polished interaction
+</td>
+</tr>
+</table>
 
-## `> tech_stack`
+---
+
+### OPEN CASES
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+#### [01 — 2D SHOWCASE](https://github.com/CieplutkiGit/2DShowcase)
+
+A working cabinet of 2D experiments, mechanics, and presentation studies.
+
+`classification: unity / 2d / experiments`
+
+</td>
+<td width="50%" valign="top">
+
+#### [02 — MINI TOP-DOWN SHOOTER](https://github.com/CieplutkiGit/MiniTopDownShooter)
+
+A compact top-down shooter built around the essential loop and feel.
+
+`classification: unity / gameplay / prototype`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### [03 — SIMPLE PARKOUR MOVEMENT](https://github.com/CieplutkiGit/SimpleParkourMovement)
+
+A focused movement study: traversal first, decoration later.
+
+`classification: unity / movement / systems`
+
+</td>
+<td width="50%" valign="top">
+
+#### [04 — YEELIGHT CONTROL PANEL](https://github.com/CieplutkiGit/Yeelight-Control-Panel)
+
+A practical control surface for a small piece of the physical world.
+
+`classification: utility / connected-device / ui`
+
+</td>
+</tr>
+</table>
+
+---
+
+### ACTIVITY TRAIL
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=unity,cs,dotnet,react,js,git,github,vscode&perline=8" alt="Tech stack" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/CieplutkiGit/CieplutkiGit/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/CieplutkiGit/CieplutkiGit/output/github-contribution-grid-snake.svg">
+    <img alt="Contribution trail snake" src="https://raw.githubusercontent.com/CieplutkiGit/CieplutkiGit/output/github-contribution-grid-snake.svg">
+  </picture>
 </p>
 
-## `> featured_projects`
-
 <p align="center">
-  <a href="https://github.com/CieplutkiGit/2DShowcase">
-    <img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=CieplutkiGit&repo=2DShowcase&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=67E8F9&icon_color=C084FC" alt="2DShowcase" />
-  </a>
-  <a href="https://github.com/CieplutkiGit/MiniTopDownShooter">
-    <img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=CieplutkiGit&repo=MiniTopDownShooter&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=67E8F9&icon_color=C084FC" alt="MiniTopDownShooter" />
-  </a>
+  <sub>Evidence is regenerated every morning by GitHub Actions.</sub>
 </p>
 
-<p align="center">
-  <a href="https://github.com/CieplutkiGit/SimpleParkourMovement">
-    <img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=CieplutkiGit&repo=SimpleParkourMovement&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=67E8F9&icon_color=C084FC" alt="SimpleParkourMovement" />
-  </a>
-  <a href="https://github.com/CieplutkiGit/Yeelight-Control-Panel">
-    <img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=CieplutkiGit&repo=Yeelight-Control-Panel&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=67E8F9&icon_color=C084FC" alt="Yeelight Control Panel" />
-  </a>
-</p>
+---
 
-## `> stats`
+### FIELD EQUIPMENT
 
-<p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=CieplutkiGit&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=67E8F9&icon_color=C084FC&rank_icon=github" alt="GitHub stats" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=CieplutkiGit&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=67E8F9" alt="Top languages" />
-</p>
+`Unity` · `C#` · `.NET` · `Git` · `JavaScript` · `React Native` · `VS Code`
 
-<p align="center">
-  <img width="96%" src="https://github-readme-activity-graph.vercel.app/graph?username=CieplutkiGit&bg_color=0D1117&color=67E8F9&line=A855F7&point=F8FAFC&area=true&hide_border=true" alt="Contribution activity graph" />
-</p>
+<details>
+<summary><strong>ARCHIVE NOTE — how I tend to work</strong></summary>
+<br>
 
-## `> connect`
+1. Make the smallest version that can be played.
+2. Remove anything that does not improve the feeling.
+3. Turn repeated accidents into reusable systems.
+4. Leave enough rough edges for the next experiment.
+
+</details>
+
+<br>
 
 <p align="center">
-  <a href="https://github.com/CieplutkiGit">
-    <img src="https://img.shields.io/badge/GitHub-CieplutkiGit-0D1117?style=for-the-badge&logo=github&logoColor=white" alt="GitHub profile" />
-  </a>
-</p>
-
-<p align="center">
-  <sub>⚡ Build something fun. Break it. Learn why. Make it better.</sub>
+  <em>Build the mechanic. Observe the behavior. Keep what has a pulse.</em>
 </p>
